@@ -79,9 +79,7 @@ function App() {
           <button onClick={() => setFilter("all")}>Todos</button>
           <button onClick={() => setFilter("frontend")}>Front-End</button>
           <button onClick={() => setFilter("backend")}>Back-end</button>
-          <button onClick={() => setFilter("datascience")}>
-            Ciência de Dados
-          </button>
+          <button onClick={() => setFilter("datascience")}>Ciência de Dados</button>
           <button onClick={() => setFilter("database")}>Banco de Dados</button>
         </div>
       </div>

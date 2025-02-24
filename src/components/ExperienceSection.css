@@ -1,0 +1,62 @@
+.experience-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .experience-item {
+    margin-bottom: 30px;
+  }
+  
+  .experience-item h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .experience-item .period {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .experience-item h4 {
+    font-size: 1.2rem;
+    color: #6C63FF;
+    margin: 10px 0;
+  }
+  
+  .experience-item .description {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .experience-item h3 {
+      font-size: 1.3rem;
+    }
+  
+    .experience-item h4 {
+      font-size: 1.1rem;
+    }
+  
+    .experience-item .description {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .experience-section {
+      padding: 20px 10px;
+    }
+  
+    .experience-item h3 {
+      font-size: 1.2rem;
+    }
+  
+    .experience-item h4 {
+      font-size: 1rem;
+    }
+  
+    .experience-item .description {
+      font-size: 0.8rem;
+    }
+  }

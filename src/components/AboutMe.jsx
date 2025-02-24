@@ -1,6 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
-import minhaFoto from "../assets/images/eu.jpg"; // Importe sua foto
+import minhaFoto from "../components/assets/images/eu.jpg"; // Importe sua foto
 import "./AboutMe.css"; // Estilos para a seção
 
 const AboutMe = () => {

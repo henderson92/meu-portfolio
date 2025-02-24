@@ -1,20 +1,20 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import minhaFoto from "../components/assets/images/eu.jpg"; // Importe sua foto
-import "./AboutMe.css"; // Estilos para a seção
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa"; // Ícones das redes sociais
+import "./Profile.css"; // Estilos para o componente
 
-const ContactSection = () => {
+const Profile = () => {
   return (
-    <section id="contact" className="contact-section">
-      <div className="contact-content">
-        <div className="contact-image">
+    <section id="profile" className="profile-section">
+      <div className="profile-content">
+        <div className="profile-image">
           <img src={minhaFoto} alt="Minha Foto" />
         </div>
-        <div className="contact-info">
-          <h2>Contato</h2>
+        <div className="profile-info">
+          <h2>Meu Perfil</h2>
           <p>
             Olá! Meu nome é Paulo Henrique. Sou um desenvolvedor Full Stack com experiência em JavaScript, React, Node.js e Python.
-            Entre em contato comigo através dos links abaixo.
+            Adoro criar soluções tecnológicas que resolvem problemas reais e agregam valor aos usuários.
           </p>
           <div className="social-links">
             <a href="https://github.com/seu-usuario" target="_blank" rel="noopener noreferrer">
@@ -33,4 +33,4 @@ const ContactSection = () => {
   );
 };
 
-export default ContactSection;
+export default Profile;
